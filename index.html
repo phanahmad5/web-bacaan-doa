@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bacaan Tawasul</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Amiri&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- MUQODIMAH -->
+
+<section id="intro" class="center">
+
+<h1>📿 Bacaan Tawasul</h1>
+
+<p>
+Assalamualaikum Warahmatullahi Wabarakatuh.
+
+<br><br>إِنَّ الْحَمْدَ ِللَّهِ، نَحْمَدُهُ وَنَسْتَعِينُهُ وَنَسْتَغْفِرُهُ، وَنَعُوذُ بِاللَّهِ مِنْ شُرُورِ أَنْفُسِنَا، وَمِنْ سَيِّئَاتِ أَعْمَالِنَا، مَنْ يَهْدِهِ اللَّهُ فَلَا مُضِلَّ لَهُ، وَمَنْ يُضْلِلْ فَلَا هَادِيَ لَهُ، وَأَشْهَدُ أَنْ لَا إِلَـٰهَ إِلَّا اللَّهُ، وَحْدَهُ لَا شَرِيْكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ
+
+
+<br><br>puji serta syukur marikah kita panjatkan kehadirat allah subhanallah wa taala yang telah memberikan kita nimat iman, islam serta ihsan. dan juga telah memberikan kesehatan sehingga kita bisa berkumpul dalam acara ini. solawat serta salam marilah kita cirah limpahkan kepada nabi besar nabi muhammad saw. tak lupa kepada para sahabatnya para tabiit dan atabaut tabiitnya umumnya selaku umatnya aammiin yallah .
+
+Yang saya hormati tuan rumah, Bapak/Ibu sekalian, serta para hadirin, tetangga, dan kerabat yang dimuliakan Allah. Alhamdulillah, hari ini kita dapat berkumpul dalam rangka walimatul wakirah atau syukuran menempati rumah baru dalam keadaan sehat walafiat.
+
+Hadirin yang dirahmati Allah, memiliki rumah adalah salah satu nikmat besar dari Allah SWT yang patut kita syukuri. Tidak semua orang diberikan rezeki dan kemudahan untuk memiliki tempat bernaung yang layak dan nyaman seperti ini. Oleh karena itu, momentum ini harus didasari dengan niat syukur yang tulus kepada Sang Pemberi Rezeki, bukan untuk berbangga diri di hadapan manusia.
+
+Wassalamualaikum Warahmatullahi Wabarakatuh.
+
+</p>
+
+<button onclick="startReading()">Mulai Membaca</button>
+
+</section>
+
+
+<!-- NAVBAR -->
+
+<nav id="navbar">
+
+<div class="nav-left">
+📿 Tawasul
+</div>
+
+<div class="nav-right">
+
+<button onclick="toggleDark()">🌙</button>
+
+<button onclick="fontUp()">A+</button>
+<button onclick="fontDown()">A-</button>
+
+</div>
+
+</nav>
+
+
+<!-- PROGRESS -->
+
+<div class="progress-container">
+<div id="progress"></div>
+</div>
+
+
+<!-- BACaan -->
+
+<section id="reading" class="hidden">
+
+<div class="card">
+
+<h2 id="title"></h2>
+
+<p class="arab" id="arab"></p>
+
+
+
+<div class="nav-btn">
+
+<button onclick="prev()">⬅ Sebelumnya</button>
+
+<button onclick="next()">Selanjutnya ➡</button>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
